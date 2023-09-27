@@ -6,7 +6,7 @@ install:
 	pip install -r requirements.txt
 
 create_table:
-  python database_main.py
+  	python database_main.py
 
 test:
 	#python -m pytest --nbval-lax *.ipynb
