@@ -22,9 +22,12 @@ class TestElectricityFunctionsPartOne(unittest.TestCase):
         conn.close()
 
     def test_see_five_query(self):
-        """Testing simple query for top 5 rows display"""
+        """Testing is the size of the see_fice_query output is 5, 9"""
         result = see_five_query()
-        self.assertEqual(result, "Success")
+        num_rows = len(result)
+        num_columns = len(result[0])
+        self.assertEqual(num_rows, 5)
+        self.assertEqual(num_columns, 9)
 
     def test_insert_query(self):
         """Testing INSERT query"""

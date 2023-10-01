@@ -1,17 +1,36 @@
 """Query the database"""
 
 import sqlite3
+import pandas as pd
+from tabulate import tabulate
 
 
 def see_five_query():
     """Query the database for the top 5 rows of the ElectricityDB table"""
     conn = sqlite3.connect("Electricity.db")
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM Electricity")
+    cursor.execute("SELECT * FROM Electricity LIMIT 5")
     print("Top 5 rows of the Electricity table:")
-    print(cursor.fetchall())
+    q_result = cursor.fetchall()
+    print(
+        tabulate(
+            q_result,
+            headers=[
+                "zip",
+                "eiaid",
+                "utility_name",
+                "state",
+                "service_type",
+                "ownership",
+                "comm_rate",
+                "ind_rate",
+                "res_rate",
+            ],
+            tablefmt="grid",
+        )
+    )
     conn.close()
-    return "Success"
+    return q_result
 
 
 def insert_query():
