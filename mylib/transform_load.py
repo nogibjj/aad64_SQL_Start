@@ -10,7 +10,7 @@ import os
 
 # load the csv file and insert into a new sqlite3 database
 def load(
-    dataset="/workspaces/aad64_SQL_Start/data/gh-pages/data.gov/ElectricUtilityRates/iouzipcodes2011.csv",
+    dataset="Electricity.csv",
 ):
     """ "Transforms and Loads data into the local SQLite3 database"""
 
