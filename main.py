@@ -20,9 +20,9 @@ def final():
     # Query
     print("Querying data...")
     see_five_query()
-    #insert_query()
-    #update_query()
-    #order_query()
+    insert_query()
+    update_query()
+    order_query()
 
 
 if __name__ == "__main__":
