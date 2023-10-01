@@ -3,7 +3,7 @@ Python Scripting, SQL, and Fostering Unified Commitment
 
 [![CI](https://github.com/nogibjj/aad64_SQL_Start/actions/workflows/actions.yml/badge.svg)](https://github.com/nogibjj/aad64_SQL_Start/actions/workflows/actions.yml)
 
-Click [here](https://github.com/nogibjj/aad64_SQL_Start/edit/main/Project_Architecture.png) for a better look at this project's architecture.
+### Click [here](https://github.com/nogibjj/aad64_SQL_Start/edit/main/Project_Architecture.png) for a better look at this project's architecture.
 
 ## Requirements
 + Connect to a SQL database:
