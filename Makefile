@@ -23,4 +23,4 @@ run:
 #	python lib.py	
 	python main.py
 
-all: install lint format test
+all: venv install lint format test
