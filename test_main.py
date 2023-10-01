@@ -1,8 +1,6 @@
 import unittest
 import sqlite3
-import subprocess
 from mylib.query import see_five_query, insert_query, update_query, order_query
-from mylib.extract import extract
 from mylib.transform_load import load
 
 
@@ -34,7 +32,10 @@ class TestElectricityFunctionsPartOne(unittest.TestCase):
         cursor = conn.cursor()
         insert_query()
         cursor.execute(
-            "SELECT zip FROM Electricity WHERE utility_name = 'Data Engineering Electric';"
+            """
+            SELECT zip FROM Electricity WHERE 
+            utility_name = 'Data Engineering Electric';
+            """
         )
         result = cursor.fetchone()
         self.assertEqual(result[0], 55555)
