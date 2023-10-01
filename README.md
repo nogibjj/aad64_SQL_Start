@@ -25,5 +25,7 @@ Python Scripting, SQL, and Fostering Unified Commitment
     * transform_load.py
     * test_main.py
 + Screenshot or log of successful database operations
++ <img width="1063" alt="Screenshot 2023-10-01 at 6 51 26 PM" src="https://github.com/nogibjj/aad64_SQL_Start/assets/143753050/6fa5152b-f705-4b62-92ce-e2f4e513c906">
+
 
 
