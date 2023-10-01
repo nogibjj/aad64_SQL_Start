@@ -19,12 +19,13 @@ Python Scripting, SQL, and Fostering Unified Commitment
 + CRUD operations (20 points)
 
 * Deliverables
-+ Python script: main.py. Also check:
-    * extract.py
-    * query.py
-    * transform_load.py
-    * test_main.py
++ Python script: [main.py](https://github.com/nogibjj/aad64_SQL_Start/edit/main/main.py). Also check:
+    * [extract.py](https://github.com/nogibjj/aad64_SQL_Start/edit/main/mylib/extract.py)
+    * [query.py](https://github.com/nogibjj/aad64_SQL_Start/edit/main/mylib/query.py)
+    * [transform_load.py](https://github.com/nogibjj/aad64_SQL_Start/edit/main/mylib/transform_load.py)
+    * [test_main.py](https://github.com/nogibjj/aad64_SQL_Start/edit/main/test_main.py)
 + Screenshot or log of successful database operations
+    Since my test_main.py tests the transform_load.py function as well as all the CRUD operations written in query.py, the following is a screenshot of the successful execution of the test_main.py file (i.e., all the database operation were succesful.).
 + <img width="1063" alt="Screenshot 2023-10-01 at 6 51 26 PM" src="https://github.com/nogibjj/aad64_SQL_Start/assets/143753050/6fa5152b-f705-4b62-92ce-e2f4e513c906">
 
 
