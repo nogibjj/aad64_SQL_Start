@@ -29,7 +29,7 @@ Click [here](https://github.com/nogibjj/aad64_SQL_Start/edit/main/Project_Archit
         * [transform_load.py](https://github.com/nogibjj/aad64_SQL_Start/edit/main/mylib/transform_load.py)
         * [test_main.py](https://github.com/nogibjj/aad64_SQL_Start/edit/main/test_main.py)
     + Screenshot or log of successful database operations
-
+<p align = "center"><img width="1359" alt="Screenshot 2023-10-01 at 7 33 13 PM" src="https://github.com/nogibjj/aad64_SQL_Start/assets/143753050/7819188b-5b61-4865-9b76-8ff4822e42d0"></p>
   Since my test_main.py tests the transform_load.py function as well as all the CRUD operations written in query.py, the following is a screenshot of the successful execution of the test_main.py file (i.e., all the database operation were successful).
 + <img width="1063" alt="Screenshot 2023-10-01 at 6 51 26 PM" src="https://github.com/nogibjj/aad64_SQL_Start/assets/143753050/6fa5152b-f705-4b62-92ce-e2f4e513c906">
 
