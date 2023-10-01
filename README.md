@@ -3,7 +3,7 @@ Python Scripting, SQL, and Fostering Unified Commitment
 
 [![CI](https://github.com/nogibjj/aad64_SQL_Start/actions/workflows/actions.yml/badge.svg)](https://github.com/nogibjj/aad64_SQL_Start/actions/workflows/actions.yml)
 
-* Requirements
+## Requirements
 + Connect to a SQL database:
     For this, extract.py and transform_load.py were created in the mylib folder, which extract the csv dataset from an online github repo, and then establish the connection between my project and SQLite to create the database and a table called Electricity. 
 
